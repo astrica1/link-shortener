@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 
 
-class LinkConfig(AppConfig):
+class UrlConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'link'
+    name = 'url_shortener'
+    verbose_name = 'URL Shortener'
